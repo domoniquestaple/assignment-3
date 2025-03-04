@@ -1,0 +1,41 @@
+Dates when I went through the Git Lab Tutorials: March 2nd and 3rd
+Date I set up my GitHub account: A couple weeks ago for another class. 
+
+1. domoniquestaple@Domoniques-MacBook-Air assignment-3 % git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 507 bytes | 507.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:domoniquestaple/assignment-3.git
+   4cbe911..ee81230  master -> master
+
+2. There have been 9 commits. Command to find this out: git log --oneline --all | wc -l
+
+3. The README.md file was last modified - Mon Mar 3 21:04:11 2025 -0500. Command to find this out: git log -1 --format=%ad -- README.md
+
+4. 1. Branches allow developers to work on new features or bug fixes without affecting the main codebase until the changes are ready to be merged.
+
+2. Branches enable multiple developers to work on different tasks simultaneously without interfering with each other’s work.
+
+5. 1. git log shows you the history of your commits, giving you details about what has been committed, when, by whom, and what changes were made.
+
+2. git status tells you the current state of your project, like which files have been modified, which are staged for commit, and if there are any untracked files that Git isn't aware of yet.
+
+6. Command: git log --oneline -- Vehicle.h
+
+7. git log --oneline --grep="file"
+
+8. 1. Inheritance: Inheritance allows one class to inherit properties and behaviors from another class, enabling code reuse and hierarchical relationships.
+
+2. Polymorphism: Polymorphism allows objects of different classes to be treated as instances of a common superclass, enabling methods to behave differently based on the object's class.
+
+3. Encapsulation: Encapsulation involves bundling data and methods together within a class and restricting access to some internal components to protect the object's integrity.
+
+9. In the Dictator and Lieutenants workflow, the Dictator handles integration and conflict resolution from the Lieutenants, whereas, in the Integration Manager workflow, the Integration Manager handles all integration and conflict resolution centrally for the entire team.
+
+10. A team of 100 developers would benefit from the "Dictator and Lieutenants" workflow because it spreads the workload. Lieutenants handle integration and conflict resolution for smaller groups, reducing the burden on the Dictator and speeding up the process, unlike the "Centralized" workflow where one person manages everything.
+
+Access to the GitHub Repository: https://github.com/domoniquestaple/assignment-3   
